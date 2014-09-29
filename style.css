@@ -1,0 +1,78 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: darkgray;
+	background: darkgray;
+}
+
+.container {
+	margin-top: 120px;
+	background: cornsilk;
+	text-align: center;
+	padding: 20px 0px;
+	color: darksalmon;
+	border: 3px solid;
+	border-left: none;
+	border-right: none;
+}
+
+span {
+	display: block;
+	font-size: 30px;
+	margin: 20px 0px;
+}
+
+button {
+	margin: 0px 30px;
+	padding: 12px 40px;
+	border: 3px solid;
+	background: white;
+	/*border-bottom: 6px solid;*/
+	box-shadow: 6px 6px;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:active {
+	box-shadow: 3px 3px;
+	-webkit-transform: translate(3px, 3px);
+	-moz-transform: translate(3px, 3px);
+	-o-transform: translate(3px, 3px);
+	-ms-transform: translate(3px, 3px);
+	transform: translate(3px, 3px);
+}
+
+input {
+	padding: 22px;
+	border: 3px solid;
+}
+
+::-webkit-input-placeholder {
+	color: darksalmon;
+}
+
+::-moz-input-placeholder {
+	color: darksalmon;
+}
+
+:-ms-input-placeholder {
+	color: darksalmon;
+}
+
+input:focus {
+	outline: none;
+}
+
+.button-span {
+	margin: 40px 0px;
+}
+
+.output {
+	font-size: 30px;
+	font-weight: bold;
+}
